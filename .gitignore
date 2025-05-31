@@ -82,10 +82,8 @@ dist/
 !data/
 !modules/
 
-# Frontend specific
+# Frontend specific - only exclude build artifacts and node_modules
 cardiac-prediction-frontend/build/
-cardiac-prediction-frontend/.pnp
-cardiac-prediction-frontend/.pnp.js
 cardiac-prediction-frontend/coverage/
 cardiac-prediction-frontend/node_modules/
 cardiac-prediction-frontend/.env*
