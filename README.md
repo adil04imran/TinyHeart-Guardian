@@ -1,53 +1,104 @@
-# Getting Started with Create React App
+# TinyHeart Guardian: Newborn Cardiac Arrest Prediction System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
+  <img src="public/logo192.png" alt="TinyHeart Guardian Logo" width="120" />
+  
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  [![React](https://img.shields.io/badge/React-18.2.0-61DAFB?logo=react&logoColor=white)](https://reactjs.org/)
+  [![MUI](https://img.shields.io/badge/Material--UI-5.14.20-0081CB?logo=mui&logoColor=white)](https://mui.com/)
 
-## Available Scripts
+  A cutting-edge AI-powered platform for early detection and prediction of cardiac arrest in newborns, enabling timely medical intervention.
+</div>
 
-In the project directory, you can run:
+## 🌟 Features
 
-### `npm start`
+- **Real-time Monitoring**: Track vital signs and risk factors in real-time
+- **AI-Powered Predictions**: Advanced machine learning models for early detection
+- **User-Friendly Dashboard**: Intuitive interface for healthcare professionals
+- **Patient History**: Comprehensive records and trend analysis
+- **Responsive Design**: Works seamlessly across all devices
+- **Dark/Light Mode**: Eye-friendly interface for all lighting conditions
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🚀 Getting Started
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Prerequisites
 
-### `npm test`
+- Node.js (v16 or higher)
+- npm (v8 or higher) or yarn
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Installation
 
-### `npm run build`
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/adil04imran/TinyHeart-Guardian.git
+   cd TinyHeart-Guardian
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. **Install dependencies**
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. **Start the development server**
+   ```bash
+   npm start
+   # or
+   yarn start
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. **Open in browser**
+   The application will open automatically in your default browser at [http://localhost:3000](http://localhost:3000)
 
-### `npm run eject`
+## 🏗️ Project Structure
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
+src/
+├── components/         # Reusable UI components
+│   ├── Dashboard.jsx    # Main dashboard component
+│   ├── Navigation.jsx   # Navigation bar
+│   ├── PatientForm.jsx  # Form for new patient data
+│   └── PatientHistory.jsx # Patient history view
+├── context/            # React context providers
+│   └── ThemeContext.js # Theme management
+├── App.js              # Main application component
+└── theme.js            # MUI theme configuration
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🎨 Theming
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+TinyHeart Guardian supports both light and dark modes. The theme can be toggled using the sun/moon icon in the top navigation bar.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🤝 Contributing
 
-## Learn More
+We welcome contributions! Please follow these steps:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 📄 License
 
-### Code Splitting
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🙏 Acknowledgments
+
+- Material-UI for the amazing UI components
+- React for the frontend framework
+- All the open-source libraries that made this project possible
+
+## 📞 Contact
+
+For any queries or support, please open an issue in the repository.
+
+---
+
+<div align="center">
+  Made with ❤️ for healthier tomorrows
+</div>
 
 ### Analyzing the Bundle Size
 
