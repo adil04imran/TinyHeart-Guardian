@@ -61,21 +61,26 @@ dist/
 # Jupyter Notebook
 .ipynb_checkpoints
 
-# Model files
-*.h5
-*.hdf5
-*.pkl
-*.pth
-*.pt
-*.bin
+# Model files - allow specific model files
+# *.h5
+# *.hdf5
+# *.pkl
+# *.pth
+# *.pt
+# *.bin
 
-# Data files
-*.csv
-*.json
-*.xlsx
-*.xls
-*.db
-*.sqlite3
+# Data files - allow specific data files if needed
+# *.csv
+# *.json
+# *.xlsx
+# *.xls
+# *.db
+# *.sqlite3
+
+# Allow specific model and data directories
+!models/
+!data/
+!modules/
 
 # Frontend specific
 cardiac-prediction-frontend/build/
