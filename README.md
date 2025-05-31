@@ -3,7 +3,6 @@
 <div align="center">
   <img src="public/logo192.png" alt="TinyHeart Guardian Logo" width="120" />
   
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   [![React](https://img.shields.io/badge/React-18.2.0-61DAFB?logo=react&logoColor=white)](https://reactjs.org/)
   [![MUI](https://img.shields.io/badge/Material--UI-5.14.20-0081CB?logo=mui&logoColor=white)](https://mui.com/)
 
@@ -106,10 +105,6 @@ We welcome contributions! Please follow these steps:
 3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgments
 
