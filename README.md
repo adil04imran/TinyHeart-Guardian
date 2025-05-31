@@ -54,16 +54,43 @@
 ## 🏗️ Project Structure
 
 ```
-src/
-├── components/         # Reusable UI components
-│   ├── Dashboard.jsx    # Main dashboard component
-│   ├── Navigation.jsx   # Navigation bar
-│   ├── PatientForm.jsx  # Form for new patient data
-│   └── PatientHistory.jsx # Patient history view
-├── context/            # React context providers
-│   └── ThemeContext.js # Theme management
-├── App.js              # Main application component
-└── theme.js            # MUI theme configuration
+.
+├── cardiac-prediction-frontend/  # Frontend React application
+│   ├── public/                   # Static files
+│   └── src/                      # Frontend source code
+│       ├── components/           # Reusable UI components
+│       │   ├── Dashboard.jsx     # Main dashboard component
+│       │   ├── Navigation.jsx    # Top navigation bar
+│       │   ├── PatientForm.jsx   # Form for new patient data
+│       │   └── PatientHistory.jsx # Patient history view
+│       ├── context/              # React context providers
+│       │   └── ThemeContext.js   # Theme management
+│       ├── App.js                # Main application component
+│       └── theme.js              # MUI theme configuration
+│
+├── models/                     # Trained ML models and scalers
+│   ├── model.pkl               # Main prediction model
+│   ├── online_model.pkl         # Online learning model
+│   └── scaler.pkl              # Feature scaler
+│
+├── modules/                    # Backend modules
+│   ├── alert_system.py         # Alert and notification system
+│   ├── data_module.py          # Data handling and processing
+│   ├── database_module.py      # Database operations
+│   ├── model_training.py       # Model training utilities
+│   ├── online_learning.py      # Online learning implementation
+│   ├── preprocessing.py        # Data preprocessing
+│   ├── rl_module.py           # Reinforcement learning components
+│   └── xai_module.py          # Explainable AI utilities
+│
+├── tests/                     # Test files
+│   ├── test_model_behaviour.py  # Model behavior tests
+│   └── test_preprocessing.py    # Preprocessing tests
+│
+├── .env.example              # Example environment variables
+├── .gitignore                 # Git ignore file
+├── README.md                  # Project documentation
+└── requirements.txt           # Python dependencies
 ```
 
 ## 🎨 Theming
